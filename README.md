@@ -1,5 +1,7 @@
 # 🌈 GradientCardView
 
+[![](https://jitpack.io/v/ParithiAndroid/GradientCardView.svg)](https://jitpack.io/#ParithiAndroid/GradientCardView)
+
 A customizable **MaterialCardView** with **gradient background support**:  
 - Linear (horizontal, vertical, angled)  
 - Radial  
@@ -10,6 +12,8 @@ Easily add **beautiful gradients** to your cards with customizable colors, posit
 ---
 
 ## 📦 Installation
+
+🔗 For the latest version, always check JitPack
 
 Add **JitPack** to your `settings.gradle` or `build.gradle`:
 
