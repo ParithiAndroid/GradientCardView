@@ -1,0 +1,30 @@
+<resources>
+    <declare-styleable name="GradientCardView">
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+
+        <!-- Gradient type -->
+        <attr name="gradientType" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="radial" value="1" />
+            <enum name="sweep" value="2" />
+        </attr>
+
+        <!-- Linear options -->
+        <attr name="gradientOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+            <enum name="angle" value="2" />
+        </attr>
+        <attr name="gradientAngle" format="integer" />
+
+        <!-- General options -->
+        <attr name="startPercentage" format="float" />
+        <attr name="endPercentage" format="float" />
+
+        <!-- Radial & Sweep -->
+        <attr name="gradientRadius" format="dimension" />
+        <attr name="gradientCenterX" format="float" />
+        <attr name="gradientCenterY" format="float" />
+    </declare-styleable>
+</resources>
