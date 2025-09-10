@@ -31,7 +31,9 @@ dependencies {
 # Usage
 ## XML Examples
 
-1. Horizontal Gradient
+```
+
+// 1. Horizontal Gradient
 <com.parithidb.parithilibrary.GradientCardView
     android:layout_width="match_parent"
     android:layout_height="200dp"
@@ -42,7 +44,7 @@ dependencies {
     app:cardCornerRadius="16dp"
     app:cardElevation="8dp"/>
 
-2. Vertical Gradient
+// 2. Vertical Gradient
 <com.parithidb.parithilibrary.GradientCardView
     android:layout_width="match_parent"
     android:layout_height="200dp"
@@ -53,7 +55,7 @@ dependencies {
     app:cardCornerRadius="16dp"
     app:cardElevation="8dp"/>
 
-3. Angled Linear Gradient (e.g., 45°)
+// 3. Angled Linear Gradient (e.g., 45°)
 <com.parithidb.parithilibrary.GradientCardView
     android:layout_width="match_parent"
     android:layout_height="200dp"
@@ -65,7 +67,7 @@ dependencies {
     app:cardCornerRadius="16dp"
     app:cardElevation="8dp"/>
 
-4. Radial Gradient
+// 4. Radial Gradient
 <com.parithidb.parithilibrary.GradientCardView
     android:layout_width="match_parent"
     android:layout_height="200dp"
@@ -76,7 +78,7 @@ dependencies {
     app:cardCornerRadius="16dp"
     app:cardElevation="8dp"/>
 
-5. Sweep Gradient
+// 5. Sweep Gradient
 <com.parithidb.parithilibrary.GradientCardView
     android:layout_width="match_parent"
     android:layout_height="200dp"
@@ -86,10 +88,13 @@ dependencies {
     app:cardCornerRadius="16dp"
     app:cardElevation="8dp"/>
 
+```
+
 ## Kotlin Usage
 
 You can also set gradients programmatically:
 
+```
 val cardView = findViewById<GradientCardView>(R.id.myCardView)
 
 // Set linear horizontal gradient
@@ -107,6 +112,8 @@ cardView.setGradientType(1) // 0 = linear, 1 = radial, 2 = sweep
 
 // Switch to sweep gradient
 cardView.setGradientType(2)
+
+```
 
 ## ⚙️ Supported Attributes
 
